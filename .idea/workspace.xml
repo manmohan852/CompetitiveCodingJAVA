@@ -78,11 +78,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/Stairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="112">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/IntersectingChordsInACircle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,15 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
               <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Deque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="203" column="17" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -155,6 +163,8 @@
         <option value="$PROJECT_DIR$/src/site/ibit/graph/SmallestMultipleWith0And1.java" />
         <option value="$PROJECT_DIR$/src/site/ibit/dp/LengthOfLongestSubSequence.java" />
         <option value="$PROJECT_DIR$/src/site/ibit/dp/WaysToDecode.java" />
+        <option value="$PROJECT_DIR$/src/site/ibit/dp/Stairs.java" />
+        <option value="$PROJECT_DIR$/src/site/ibit/dp/IntersectingChordsInACircle.java" />
       </list>
     </option>
   </component>
@@ -279,7 +289,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stairs">
+  <component name="RunManager" selected="Application.IntersectingChordsInACircle">
+    <configuration name="IntersectingChordsInACircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.ibit.dp.IntersectingChordsInACircle" />
+      <module name="CompetitiveCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.ibit.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LengthOfLongestSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.ibit.dp.LengthOfLongestSubSequence" />
       <module name="CompetitiveCoding" />
@@ -295,19 +318,6 @@
     </configuration>
     <configuration name="SmallestMultipleWith0And1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.ibit.graph.SmallestMultipleWith0And1" />
-      <module name="CompetitiveCoding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.ibit.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallestSequenceWithGivenPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.ibit.graph.SmallestSequenceWithGivenPrimes" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
@@ -347,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectingChordsInACircle" />
         <item itemvalue="Application.Stairs" />
         <item itemvalue="Application.WaysToDecode" />
         <item itemvalue="Application.LengthOfLongestSubSequence" />
         <item itemvalue="Application.SmallestMultipleWith0And1" />
-        <item itemvalue="Application.SmallestSequenceWithGivenPrimes" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +376,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550536730953</updated>
       <workItem from="1550536745098" duration="1937000" />
-      <workItem from="1550947454947" duration="12114000" />
+      <workItem from="1550947454947" duration="13371000" />
     </task>
     <task id="LOCAL-00001" summary="cloudy day">
       <created>1550545175566</created>
@@ -379,7 +389,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14051000" />
+    <option name="totallyTimeSpent" value="15308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -537,8 +547,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/Stairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="112">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/IntersectingChordsInACircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
