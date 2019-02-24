@@ -12,15 +12,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/hk/greedy/CloudyDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/site/ibit/graph/ValidPath.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="98">
@@ -75,13 +66,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/LengthOfLongestSubSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="588">
               <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/WaysToDecode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/site/ibit/graph/SmallestSequenceWithGivenPrimes.java" />
         <option value="$PROJECT_DIR$/src/site/ibit/graph/SmallestMultipleWith0And1.java" />
         <option value="$PROJECT_DIR$/src/site/ibit/dp/LengthOfLongestSubSequence.java" />
+        <option value="$PROJECT_DIR$/src/site/ibit/dp/WaysToDecode.java" />
       </list>
     </option>
   </component>
@@ -278,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubSequence">
+  <component name="RunManager" selected="Application.WaysToDecode">
     <configuration name="LengthOfLongestSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.ibit.dp.LengthOfLongestSubSequence" />
       <module name="CompetitiveCoding" />
@@ -331,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.ibit.graph.ValidPath" />
+    <configuration name="WaysToDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.ibit.dp.WaysToDecode" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.ibit.graph.*" />
+          <option name="PATTERN" value="site.ibit.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaysToDecode" />
         <item itemvalue="Application.LengthOfLongestSubSequence" />
         <item itemvalue="Application.SmallestMultipleWith0And1" />
         <item itemvalue="Application.SmallestSequenceWithGivenPrimes" />
         <item itemvalue="Application.LevelOrder" />
-        <item itemvalue="Application.ValidPath" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +370,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550536730953</updated>
       <workItem from="1550536745098" duration="1937000" />
-      <workItem from="1550947454947" duration="10799000" />
+      <workItem from="1550947454947" duration="11842000" />
     </task>
     <task id="LOCAL-00001" summary="cloudy day">
       <created>1550545175566</created>
@@ -378,13 +383,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12736000" />
+    <option name="totallyTimeSpent" value="13779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22818792" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -392,7 +397,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,10 +520,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/LengthOfLongestSubSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="588">
           <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/WaysToDecode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
           </folding>
         </state>
       </provider>
