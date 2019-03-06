@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2699ca2-01af-40fa-a84d-1543f3f4a829" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d2699ca2-01af-40fa-a84d-1543f3f4a829" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,19 +72,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/Stairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/IntersectingChordsInACircle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14">
@@ -95,14 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/site/hk/dp/HackerCity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="266">
               <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/site/gfg/array/SortArrayWaveForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -161,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/site/ibit/dp/IntersectingChordsInACircle.java" />
         <option value="$PROJECT_DIR$/src/site/gfg/dp/UglyNumbers.java" />
         <option value="$PROJECT_DIR$/src/site/hk/dp/HackerCity.java" />
+        <option value="$PROJECT_DIR$/src/site/gfg/array/SortArrayWaveForm.java" />
       </list>
     </option>
   </component>
@@ -202,53 +197,15 @@
               <item name="CompetitiveCoding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="gfg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CompetitiveCoding" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompetitiveCoding" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="hk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompetitiveCoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompetitiveCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="hk" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompetitiveCoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompetitiveCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="hk" type="462c0819:PsiDirectoryNode" />
-              <item name="greedy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompetitiveCoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompetitiveCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="ibit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompetitiveCoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompetitiveCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="ibit" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CompetitiveCoding" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CompetitiveCoding" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-              <item name="ibit" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="gfg" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HackerCity">
+  <component name="RunManager" selected="Application.SortArrayWaveForm">
     <configuration name="HackerCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.hk.dp.HackerCity" />
       <module name="CompetitiveCoding" />
@@ -298,6 +255,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="site.ibit.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortArrayWaveForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.gfg.array.SortArrayWaveForm" />
+      <module name="CompetitiveCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.gfg.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,26 +301,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaysToDecode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.ibit.dp.WaysToDecode" />
-      <module name="CompetitiveCoding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.ibit.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortArrayWaveForm" />
         <item itemvalue="Application.HackerCity" />
         <item itemvalue="Application.UglyNumbers" />
         <item itemvalue="Application.IntersectingChordsInACircle" />
         <item itemvalue="Application.Stairs" />
-        <item itemvalue="Application.WaysToDecode" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +323,7 @@
       <updated>1550536730953</updated>
       <workItem from="1550536745098" duration="1937000" />
       <workItem from="1550947454947" duration="16898000" />
-      <workItem from="1551419704609" duration="3145000" />
+      <workItem from="1551419704609" duration="5105000" />
     </task>
     <task id="LOCAL-00001" summary="cloudy day">
       <created>1550545175566</created>
@@ -379,7 +336,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21980000" />
+    <option name="totallyTimeSpent" value="23940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -392,8 +349,8 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -590,11 +547,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/site/hk/dp/HackerCity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="266">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gfg/array/SortArrayWaveForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
