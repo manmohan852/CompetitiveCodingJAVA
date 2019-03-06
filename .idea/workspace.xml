@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2699ca2-01af-40fa-a84d-1543f3f4a829" name="Default Changelist" comment="" />
+    <list default="true" id="d2699ca2-01af-40fa-a84d-1543f3f4a829" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/hk/greedy/CloudyDay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/site/gfg/dp/UglyNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,91 +27,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/ibit/graph/SmallestSequenceWithGivenPrimes.java">
+        <entry file="file://$PROJECT_DIR$/src/site/gfg/divideAndConquer/CalculatePowerXtoN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/ibit/graph/SmallestMultipleWith0And1.java">
+        <entry file="file://$PROJECT_DIR$/src/site/gfg/binaryIndexedTree/ImplementationOfBIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
-                <element signature="e#2214#2215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/LengthOfLongestSubSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/ibit/dp/IntersectingChordsInACircle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/site/hk/dp/HackerCity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/site/gfg/array/SortArrayWaveForm.java">
+        <entry file="file://$PROJECT_DIR$/src/site/gfg/binaryIndexedTree/InversionsInAArrayUsingBit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1162">
-              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-              <folding>
-                <element signature="e#6336#6337#0" expanded="true" />
-                <element signature="e#6404#6405#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/reflect/Constructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="196">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -156,6 +86,10 @@
         <option value="$PROJECT_DIR$/src/site/gfg/dp/UglyNumbers.java" />
         <option value="$PROJECT_DIR$/src/site/hk/dp/HackerCity.java" />
         <option value="$PROJECT_DIR$/src/site/gfg/array/SortArrayWaveForm.java" />
+        <option value="$PROJECT_DIR$/src/site/gfg/divideAndConquer/CalaculatePowerXtoN.java" />
+        <option value="$PROJECT_DIR$/src/site/gfg/divideAndConquer/CalculatePowerXtoN.java" />
+        <option value="$PROJECT_DIR$/src/site/gfg/binaryIndexedTree/ImplementationOfBIT.java" />
+        <option value="$PROJECT_DIR$/src/site/gfg/binaryIndexedTree/InversionsInAArrayUsingBit.java" />
       </list>
     </option>
   </component>
@@ -205,7 +139,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="site" type="462c0819:PsiDirectoryNode" />
               <item name="gfg" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="binaryIndexedTree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +169,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortArrayWaveForm">
+  <component name="RunManager" selected="Application.InversionsInAArrayUsingBit">
+    <configuration name="CalculatePowerXtoN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.gfg.divideAndConquer.CalculatePowerXtoN" />
+      <module name="CompetitiveCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.gfg.divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HackerCity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.hk.dp.HackerCity" />
       <module name="CompetitiveCoding" />
@@ -249,12 +196,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectingChordsInACircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.ibit.dp.IntersectingChordsInACircle" />
+    <configuration name="ImplementationOfBIT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.gfg.binaryIndexedTree.ImplementationOfBIT" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.ibit.dp.*" />
+          <option name="PATTERN" value="site.gfg.binaryIndexedTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InversionsInAArrayUsingBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.gfg.binaryIndexedTree.InversionsInAArrayUsingBit" />
+      <module name="CompetitiveCoding" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.gfg.binaryIndexedTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,39 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.ibit.dp.Stairs" />
-      <module name="CompetitiveCoding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.ibit.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UglyNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.gfg.dp.UglyNumbers" />
-      <module name="CompetitiveCoding" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.gfg.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InversionsInAArrayUsingBit" />
+        <item itemvalue="Application.ImplementationOfBIT" />
+        <item itemvalue="Application.CalculatePowerXtoN" />
         <item itemvalue="Application.SortArrayWaveForm" />
         <item itemvalue="Application.HackerCity" />
-        <item itemvalue="Application.UglyNumbers" />
-        <item itemvalue="Application.IntersectingChordsInACircle" />
-        <item itemvalue="Application.Stairs" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +257,7 @@
       <updated>1550536730953</updated>
       <workItem from="1550536745098" duration="1937000" />
       <workItem from="1550947454947" duration="16898000" />
-      <workItem from="1551419704609" duration="5105000" />
+      <workItem from="1551419704609" duration="10659000" />
     </task>
     <task id="LOCAL-00001" summary="cloudy day">
       <created>1550545175566</created>
@@ -336,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23940000" />
+    <option name="totallyTimeSpent" value="29494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -495,16 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/site/ibit/graph/SmallestSequenceWithGivenPrimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/site/ibit/graph/SmallestMultipleWith0And1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -523,17 +447,6 @@
           <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/site/gfg/dp/UglyNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -557,8 +470,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/site/gfg/array/SortArrayWaveForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="196">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/ibit/graph/SmallestSequenceWithGivenPrimes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gfg/dp/UglyNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gfg/divideAndConquer/CalculatePowerXtoN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gfg/binaryIndexedTree/ImplementationOfBIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/gfg/binaryIndexedTree/InversionsInAArrayUsingBit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
