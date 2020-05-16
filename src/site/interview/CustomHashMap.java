@@ -1,6 +1,6 @@
 package site.interview;
 
-public class HashMapCustom {
+public class CustomHashMap {
     public void testMyMap() {
         MyMap<String, String> myMap = new MyMap<>();
         myMap.put("USA", "Washington DC");
@@ -31,8 +31,8 @@ public class HashMapCustom {
     }
 
     public static void main(String[] args) {
-        HashMapCustom hashMapCustom = new HashMapCustom();
-        hashMapCustom.testMyMap();
+        CustomHashMap customHashMap = new CustomHashMap();
+        customHashMap.testMyMap();
     }
 }
 

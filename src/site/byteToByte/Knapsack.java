@@ -17,6 +17,8 @@ public class Knapsack {
 
     // Recursively check every combination of items by traversing list of items
     // and either including or excluding each item
+//    Time Complexity: O(2^n).
+//    Auxiliary Space :No use of any data structure for storing values-: O(1)
     public static int naiveKnapsack(Item[] items, int W) {
         return naiveKnapsack(items, W, 0);
     }
@@ -35,6 +37,8 @@ public class Knapsack {
     }
 
     // Recursive solution that uses a cache to improve performance
+//    Time Complexity: O(N*W).
+//    Auxiliary Space: O(N*W).
     public static int topDownKnapsack(Item[] items, int W) {
         // Map: i -> W -> value
         // Use a map instead of array because the data could be very sparse
@@ -63,6 +67,7 @@ public class Knapsack {
     }
 
     // Iterative dynamic programming solution
+    //Time Complexity: O(N*W).
     public static int bottomUpKnapsack(Item[] items, int W) {
         // cache[i][j] = max value for the first i items with a max weight of j
         int[][] cache = new int[items.length + 1][W + 1];
