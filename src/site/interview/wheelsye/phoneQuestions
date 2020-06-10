@@ -1,0 +1,47 @@
+Time Complexity of building a heap : O(n)
+Binary Heap Find/Search : O(1)
+Binary Heap  Insert/Delete/Decrease : O(log(n))
+Worst Case of quick sort :
+    1) Array is already sorted in same order.
+    2) Array is already sorted in reverse order.
+    3) All elements are same (special case of case 1 and 2)
+    4) worst case can still occur if the input array is such that the maximum (or minimum) element is always chosen as pivot.
+Difference between minute hand and hour ahnd at 3:15 : 30 / 4 = 7.5 degree
+What happens if you use binary search in insertion sort ?
+    In normal insertion sort, it takes O(n^2) comparisons(at nth iteration) in worst case. We can reduce it to O(log n) by using binary search.
+    Time Complexity: The algorithm as a whole still has a running worst case running time of O(n^2)
+    because of the series of swaps required for each insertion.
+Time complexity of Quick Sort is O(nLogn) in average case
+Time complexity of Quick Sort is O(n^2) in worst case
+Time complexity of Quick Sort is O(nLogn) in best case
+
+Why Quick Sort is preferred over MergeSort for sorting Arrays
+Quick Sort in its general form is an in-place sort (i.e. it doesn’t require any extra storage)
+whereas merge sort requires O(N) extra storage, N denoting the array size which may be quite expensive.
+Allocating and de-allocating the extra space used for merge sort increases the running time of the algorithm.
+Comparing average complexity we find that both type of sorts have O(NlogN) average complexity but the constants differ.
+For arrays, merge sort loses due to the use of extra O(N) storage space.
+
+merge sort is generally considered better when data is huge and stored in external storage.
+
+
+Time complexity of Merge Sort is O(nLogn)
+conclusion : for linked list merge sort is better since merge operation of merge sort can be implemented without extra space for linked lists.
+and quicksort requires a lot of continous access, therefore its not good for linked list,
+as to get each continous location, we have to traverse from the start in linked list.
+explanation:
+Merge Sort is useful for sorting linked lists in O(nLogn) time.In the case of linked lists,
+the case is different mainly due to the difference in memory allocation of arrays and linked lists.
+Unlike arrays, linked list nodes may not be adjacent in memory. Unlike an array, in the linked list,
+we can insert items in the middle in O(1) extra space and O(1) time.
+Therefore merge operation of merge sort can be implemented without extra space for linked lists.
+In arrays, we can do random access as elements are contiguous in memory.
+Let us say we have an integer (4-byte) array A and let the address of A[0] be x then to access A[i],
+we can directly access the memory at (x + i*4). Unlike arrays, we can not do random access in the linked list.
+Quick Sort requires a lot of this kind of access. In linked list to access i’th index, we have to travel each and
+every node from the head to i’th node as we don’t have a continuous block of memory.
+Therefore, the overhead increases for quicksort. Merge sort accesses data sequentially and the need of random access is low.
+
+
+
+

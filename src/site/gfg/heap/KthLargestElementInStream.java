@@ -70,6 +70,7 @@ public class KthLargestElementInStream {
             MinHeapify(0);
         }
 
+//        Time complexity for Building a Binary Heap is O(n).
         public void buildHeap() {
             int i = (heapSize - 1) / 2;
             while (i >= 0) {

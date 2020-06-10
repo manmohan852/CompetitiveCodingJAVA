@@ -5,12 +5,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+//multiple repeating numbers will also get printed.
 public class FindDuplicates {
 
-    // Return a list of duplicates in the array. To avoid using extra space,
-// we flag which elements we've seen before by negating the value at
-// indexed at that value in the array.
-    public static List<Integer> findDuplicates(int[] arr) {
+
+    //Doesnt work for the case when array has zero or multiple zeros.
+    public static List<Integer> findDuplicates1(int[] arr) {
         // Use a set for results to avoid duplicates
         Set<Integer> resultSet = new HashSet<>();
 
@@ -35,4 +35,34 @@ public class FindDuplicates {
 
         return new ArrayList<>(resultSet);
     }
+
+    //https://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
+    //work for zero case also.
+    public static void findDuplicates2() {
+        int numRay[] = {0, 4, 3, 2, 7, 8, 2, 3, 1};
+
+        for (int i = 0; i < numRay.length; i++) {
+            numRay[numRay[i] % numRay.length] = numRay[numRay[i] % numRay.length] + numRay.length;
+        }
+        System.out.println("The repeating elements are : ");
+        for (int i = 0; i < numRay.length; i++) {
+            if (numRay[i] >= numRay.length * 2) {
+                System.out.println(i + " ");
+            }
+        }
+    }
+
+    //https://www.geeksforgeeks.org/duplicates-array-using-o1-extra-space-set-2/
+    //int arr[] = {1, 6, 3, 1, 3, 6, 6};
+    static void printRepeating(int arr[], int n) {
+        for (int i = 0; i < n; i++) {
+            int index = arr[i] % n;
+            arr[index] += n;
+        }
+        for (int i = 0; i < n; i++) {
+            if ((arr[i] / n) > 1)
+                System.out.println(i + " ");
+        }
+    }
+
 }

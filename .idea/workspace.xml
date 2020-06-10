@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="d2699ca2-01af-40fa-a84d-1543f3f4a829" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Anagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Anagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/BuiltOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/Knapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/HashMapCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/CustomHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/FindDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/FindDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Knapsack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MergeArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MergeArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Permutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Permutations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/HashMapCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/HashMapCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/MyMap$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/MyMap$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/MyMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/MyMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/BinaryIndexedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/BinaryIndexedTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/FindDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/MergeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/gfg/heap/KthLargestElementInStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/heap/KthLargestElementInStream.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +27,15 @@
       <executable />
     </execution>
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JavaFXApplication" />
         <option value="AnnotationType" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -75,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryIndexedTree">
-    <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.byteToByte.Anagrams" />
+  <component name="RunManager" selected="Application.HighFive">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.leetcode.linkedList.AddTwoNumbers" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.byteToByte.*" />
+          <option name="PATTERN" value="site.leetcode.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryIndexedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.leetcode.BinaryIndexedTree" />
+    <configuration name="FindTheRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.interview.gsachs.FindTheRank" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.leetcode.*" />
+          <option name="PATTERN" value="site.interview.gsachs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageNodeAnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.interview.ImageNodeAnd" />
+    <configuration name="HighFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.leetcode.array.HighFive" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.interview.*" />
+          <option name="PATTERN" value="site.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InversionsInAArrayUsingBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.gfg.binaryIndexedTree.InversionsInAArrayUsingBit" />
+    <configuration name="ProductExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.leetcode.array.ProductExceptSelf" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.gfg.binaryIndexedTree.*" />
+          <option name="PATTERN" value="site.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kthMostFrequentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.byteToByte.kthMostFrequentStrings" />
+    <configuration name="SharePurchases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.interview.gsachs.SharePurchases" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.byteToByte.*" />
+          <option name="PATTERN" value="site.interview.gsachs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryIndexedTree" />
-        <item itemvalue="Application.Anagrams" />
-        <item itemvalue="Application.kthMostFrequentStrings" />
-        <item itemvalue="Application.ImageNodeAnd" />
-        <item itemvalue="Application.InversionsInAArrayUsingBit" />
+        <item itemvalue="Application.HighFive" />
+        <item itemvalue="Application.SharePurchases" />
+        <item itemvalue="Application.FindTheRank" />
+        <item itemvalue="Application.ProductExceptSelf" />
+        <item itemvalue="Application.AddTwoNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +177,7 @@
       <workItem from="1588061203054" duration="16441000" />
       <workItem from="1588846602841" duration="6617000" />
       <workItem from="1589258716699" duration="2158000" />
-      <workItem from="1589316329068" duration="19616000" />
+      <workItem from="1589316329068" duration="138524000" />
     </task>
     <task id="LOCAL-00001" summary="cloudy day">
       <created>1550545175566</created>
@@ -263,7 +273,255 @@
           <line>42</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/dp/MinNumberOfJumps.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/DiffBetweenPrevAndNextElementIsSame.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/byteToByte/MergeArrays.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/byteToByte/MergeArrays.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/byteToByte/MergeArrays.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/LargestNumber.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/LargestNumber.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/LargestNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/LargestNumber.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/LargestSubarrayWithOneChangeAllowed.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/LargestSubarrayWithOneChangeAllowed.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/LargestSubarrayWithOneChangeAllowed.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/LargestSubarrayWithOneChangeAllowed.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/LargestSubarrayWithOneChangeAllowed.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/LargestIncreasingSubarrayRemoveAtMostOneElement.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/LargestIncreasingSubarrayRemoveAtMostOneElement.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/LargestIncreasingSubarrayRemoveAtMostOneElement.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/MaxSumContiguousSubArray.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/MaxSumContiguousSubArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/MaxSumContiguousSubArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/dp/LongestCommonPrefixMAthcing.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/heap/MinCostToHireKWorkers.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/heap/MinCostToHireKWorkers.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/heap/MinCostToHireKWorkers.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/heap/MinCostToHireKWorkers.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/array/CountOfSmallerNumbersAfterSelf.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/array/CountOfSmallerNumbersAfterSelf.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/array/CountOfSmallerNumbersAfterSelf.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/techmojo/test.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/techmojo/test.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/techmojo/test2.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/techmojo/test2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/techmojo/TrendingHashtagTwitter.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/design/PriorityQueueCheck.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/design/PriorityQueueCheck.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/Math/PowerOfTwo.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/Math/PowerOfTwo.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/byteToByte/Permutations.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/byteToByte/Permutations.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/byteToByte/Permutations.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/trie/ImplementTriePrefixTree.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/trie/ImplementTriePrefixTree.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/trie/ImplementTriePrefixTree.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/MostCommonWord.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/MostCommonWord.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/gsachs/SharePurchases.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/gsachs/SharePurchases.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/array/HighFive.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$SharePurchases.ic" NAME="SharePurchases Coverage Results" MODIFIED="1591783998928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>site.interview.gsachs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$LargestIncreasingSubarrayRemoveAtMostOneElement.ic" NAME="LargestIncreasingSubarrayRemoveAtMostOneElement Coverage Results" MODIFIED="1590578983841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>site.interview.*</FILTER>
+    </SUITE>
   </component>
 </project>
