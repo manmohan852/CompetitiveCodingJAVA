@@ -1,0 +1,23 @@
+        Head||||||||||||||||||||Tail
+        poll()                  add(element),offer(element)
+        push(element)
+        addFirst(element)       addLast(element)
+        offerFirst(element)     offerLast(element)
+        peek()
+        peekFirst()             peekLast()
+        poll(),pop()
+        pollFirst()             pollLast()
+        removeFirst()           removeLast()
+        getFirst()              getLast()
+        iterator() : iterate head to tail
+        descendingIterator() : iterate tail to head
+
+        contains() : return true or false
+        size() : return size
+
+add() VS Offer():
+offer() is preferable to add() method since it does not throws an exception
+when the capacity of the container is full since it returns false.
+
+
+https://www.geeksforgeeks.org/deque-interface-java-example/

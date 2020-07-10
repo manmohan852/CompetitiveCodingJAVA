@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
-
+//https://www.geeksforgeeks.org/coin-change-dp-7/
+//how many ways can we make the change?
 public class CoinCahnge {
 
     static int count(int S[], int m, int n) {
@@ -27,31 +28,6 @@ public class CoinCahnge {
             for (int j = S[i]; j <= n; j++)
                 table[j] += table[j - S[i]];
         return table[n];
-    }
-
-    //BFS
-    //Time complexity: O(N * X)
-    static int minNumbers(int[] arr, int n,int x) {
-        Queue<Integer> q = new LinkedList<>();
-        q.add(x);
-        HashSet<Integer> v = new HashSet<Integer>();
-        int d = 0;
-        while (q.size() > 0) {
-            int s = q.size();
-            while (s-- > 0) {
-                int c = q.peek();
-                if (c == 0)
-                    return d;
-                q.remove();
-                if (v.contains(c) || c < 0)
-                    continue;
-                v.add(c);
-                for (int i = 0; i < n; i++)
-                    q.add(c - arr[i]);
-            }
-            d++;
-        }
-        return -1;
     }
 
     public static void main(String[] args) {

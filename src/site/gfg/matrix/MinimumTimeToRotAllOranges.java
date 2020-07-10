@@ -95,7 +95,6 @@ public class MinimumTimeToRotAllOranges {
             }
         }
         return (checkAll(arr)) ? -1 : ans;
-
     }
 
     public static void main(String[] args) {

@@ -13,6 +13,7 @@ public class MaxSumContiguousSubArray {
         int maxSoFar = A.get(0);
         for (int i = 1; i < A.size(); i++) {
             maxEndingHere = Math.max(A.get(i), A.get(i) + maxEndingHere);
+            //OR maxEndingHere = A.get(i) +  Math.max(0,maxEndingHere);
             maxSoFar = Math.max(maxSoFar, maxEndingHere);
         }
         return maxSoFar;

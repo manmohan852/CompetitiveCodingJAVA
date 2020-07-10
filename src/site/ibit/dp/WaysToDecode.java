@@ -1,5 +1,7 @@
 package site.ibit.dp;
 
+//https://www.interviewbit.com/problems/ways-to-decode/
+//https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
 public class WaysToDecode {
 
     public static int numDecodings(String A){

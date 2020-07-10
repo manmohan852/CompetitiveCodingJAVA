@@ -2,7 +2,8 @@ package site.ibit.string;
 
 //https://www.interviewbit.com/problems/palindrome-string/
 public class PalindromeString {
-    public int isPalindrome(String a) {
+
+    public static int isPalindrome(String a) {
         char[] arr = a.toLowerCase().toCharArray();
         int i = 0;
         int j = arr.length - 1;
@@ -20,7 +21,7 @@ public class PalindromeString {
         return 1;
     }
 
-    public int isPalindrome2(String a) {
+    public static int isPalindrome2(String a) {
         int n = a.length();
         int startIdx = 0;
         int endIdx = n - 1;
@@ -45,5 +46,10 @@ public class PalindromeString {
         }
 
         return 1;
+    }
+
+    public static void main(String[] args) {
+        String str = "A man, a plan, a canal: Panama";
+        isPalindrome2(str);
     }
 }

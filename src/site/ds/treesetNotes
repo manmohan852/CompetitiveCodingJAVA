@@ -1,0 +1,37 @@
+TreeSet:
+The floor() method of java.util.TreeSet<E> class is used to return the greatest element in
+this set less than or equal to the given element, or null if there is no such element.
+Exception: This method throws NullPointerException if the specified element is null
+
+The ceiling() method of java.util.TreeSet<E> class is used to return the least element in
+this set greater than or equal to the given element, or null if there is no such element.
+Exception: This method throws NullPointerException if the specified element is null.
+
+The lower(E ele) method of TreeSet class in Java is used to return the greatest element in this
+set which is strictly less than the given element. If no such element exists in this TreeSet
+collection then this method returns a NULL.
+
+The Java.util.TreeSet.contains() method is used to check if a specific element is present
+in the TreeSet or not. So basically it is used to check if a TreeSet contains any particular element.
+
+The Java.util.TreeSet.add() method in Java TreeSet is used to add a specific element into a TreeSet.
+The function adds the element only if the specified element is not already present in the set else the
+ function return False if the element is not present in the TreeSet.
+
+The Java.util.TreeSet.first() method is used to return the first of the element of a TreeSet.
+The first element here is being referred to the lowest of the elements in the set. If the elements
+are of integer types then the smallest integer is returned. If the elements are of the string types
+then the elements are checked in the alphabetical order and the string starting with the initial
+alphabets in the order of dictionary is returned irrespective of length.
+
+The Java.util.TreeSet.last() method is used to return the last of the element of a TreeSet.
+The last element here is being referred to the highest of the elements in the set.
+If the elements are of integer types, then the largest integer is returned. If the elements
+are of the string types, then the elements are checked in the alphabetical order and the string
+starting with the last alphabets in the order of dictionary is returned irrespective of length.
+
+The Java.util.TreeSet.isEmpty() method is used to check and verify if a TreeSet is empty or not.
+It returns True if the TreeSet is empty else it returns False.
+
+The Java.util.TreeSet.remove(Object O) : This method returns True if the element specified in the parameter is initially
+present in the Set and is successfully removed otherwise it returns False.

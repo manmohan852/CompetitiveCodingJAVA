@@ -1,6 +1,9 @@
 package site.interview;
 
 public class ImageNodeAnd {
+    //Asked in clarisights
+    //you have an image pixel of value either 0 and 1.
+    //but if it is further divided in to four parts, then its children can have values of either 0 and 1.
 
     public static class ImageNode{
         int value;

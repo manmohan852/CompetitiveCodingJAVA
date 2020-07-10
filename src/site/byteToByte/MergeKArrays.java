@@ -2,9 +2,10 @@ package site.byteToByte;
 
 import java.util.PriorityQueue;
 
+//K-WayMerge: Used in External Merge Sort
 public class MergeKArrays {
 
-    private class QueueNode implements Comparable<QueueNode> {
+    private static class QueueNode implements Comparable<QueueNode> {
         int array, index, value;
 
 
@@ -14,6 +15,7 @@ public class MergeKArrays {
             this.value = value;
         }
 
+        //increasing order compareTO
         public int compareTo(QueueNode n) {
             if (value > n.value) return 1;
             if (value < n.value) return -1;
@@ -21,8 +23,8 @@ public class MergeKArrays {
         }
     }
 
-    public int[] merge(int[][] arrays) {
-        java.util.PriorityQueue<QueueNode> pq = new PriorityQueue<QueueNode>();
+    public static int[] merge(int[][] arrays) {
+        PriorityQueue<QueueNode> pq = new PriorityQueue<>();
 
         int size = 0;
         for (int i = 0; i < arrays.length; i++) {
@@ -45,5 +47,18 @@ public class MergeKArrays {
         }
 
         return result;
+    }
+
+    public static void main(String[] args) {
+        int N = 4;  //no of element in each sorted array
+        int K = 5; //no of sorted arrays
+        int[][] arrays = new int[K][N];
+        arrays[0] = new int[]{2, 4, 6, 19};
+        arrays[1] = new int[]{1, 20, 35, 67};
+        arrays[2] = new int[]{3, 5, 7, 11};
+        arrays[3] = new int[]{45, 46, 47, 48};
+        arrays[4] = new int[]{3, 9, 100, 200};
+        merge(arrays);
+
     }
 }

@@ -5,6 +5,7 @@ public class TrappingRainWater {
     // Java program to find maximum amount of water that can
     // be trapped within given set of bars.
     static int arr[] = new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+    static int arr2[] = new int[]{0, 1, 3, 0, 1, 2, 0, 4, 2, 0, 3, 0};
 
     static int findWater2(int arr[], int n) {
         // initialize output
@@ -76,10 +77,9 @@ public class TrappingRainWater {
         return water;
     }
 
-
     // Driver method to test the above function
     public static void main(String[] args) {
-        System.out.println("Maximum water that can be accumulated is " + findWater2(arr,arr.length));
+        findWater2(arr2,arr2.length);
     }
 }
 

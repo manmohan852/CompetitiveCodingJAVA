@@ -2,7 +2,7 @@ package site.gfg.graph;
 
 import java.util.LinkedList;
 import java.util.Queue;
-
+//https://leetcode.com/problems/number-of-islands/
 //https://www.geeksforgeeks.org/islands-in-a-graph-using-bfs/
 public class IslandsInAGraph {
     static final int R = 5;

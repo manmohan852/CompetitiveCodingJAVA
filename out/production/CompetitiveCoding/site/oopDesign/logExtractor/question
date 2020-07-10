@@ -1,0 +1,19 @@
+Introduction
+
+Live services generate logs at very high rate. E.g. our service generates over 100,000 log lines a second.
+Normally, these logs are loaded inside databases for fast query,
+but the cost of keeping all the logs becomes too high, and for this reason,
+we keep logs in 2 locations. 1. Databases 2. Files In our case we use single file
+and append all the log to this file as we get logs from our servers.
+Since this file is sitting on large network file storage system,
+the size of this file can easily grow to 100s of TB.
+
+Problem Statement We need a Log extractor, that will extract loglines from desired timeframe.
+ The inpfut to this program will be "From Time" "To Time" "Log file location",
+  the time formats will be "ISO 8601" format. Also the time range will be few minutes at max,
+  i.e. you will only be extracting at max few million lines of logs.
+   The extraction process should complete in few seconds minimizing engineer's wait time.
+
+Log file format 1. The log file has one log per line. 2.
+ Every log line will start with TimeStamp in "ISO 8601" format followed by comma (','). 3.
+ All the log lines will be separated by single new line character '\n'.
