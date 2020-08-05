@@ -1,7 +1,5 @@
 package site.designPattern.behavioural.strategy.ex1;
 
-import site.designPattern.behavioural.strategy.ex1.PaymentStrategy;
-
 public class PaypalStrategy implements PaymentStrategy {
 
     private String emailId;

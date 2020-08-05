@@ -1,7 +1,5 @@
 package site.designPattern.behavioural.observer.ex1;
 
-import site.designPattern.behavioural.observer.ex1.Channel;
-
 public class NewsChannel implements Channel {
 
     private String news;

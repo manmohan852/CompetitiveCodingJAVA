@@ -26,11 +26,7 @@ public class BuildOrder {
     }
 
     // Search through all unmarked nodes accessible from process
-    public static void visit(int process,
-                             int[][] processes,
-                             Set<Integer> temporaryMarks,
-                             Set<Integer> permanentMarks,
-                             List<Integer> result) {
+    public static void visit(int process, int[][] processes, Set<Integer> temporaryMarks, Set<Integer> permanentMarks, List<Integer> result) {
         // Throw an error if we find a cycle
         if (temporaryMarks.contains(process))
             throw new RuntimeException("Graph is not acyclic");
@@ -49,5 +45,40 @@ public class BuildOrder {
             temporaryMarks.remove(process);
             result.add(process);
         }
+    }
+
+    //topological sort
+    public static boolean canFinish3(int numCourses, int[][] processes) {
+        Set<Integer> temporaryMarks = new HashSet<>();
+        Set<Integer> permanentMarks = new HashSet<>();
+        for (int i = 0; i < processes.length; i++) {
+            if (!permanentMarks.contains(i)) {
+                boolean res = visit(i, processes, temporaryMarks, permanentMarks);
+                if (res == false) return false;
+            }
+        }
+        return true;
+    }
+
+    public static boolean visit(int process, int[][] processes, Set<Integer> temporaryMarks, Set<Integer> permanentMarks) {
+        if (temporaryMarks.contains(process))
+            return false;
+        if (!permanentMarks.contains(process)) {
+            temporaryMarks.add(process);
+            for (int i : processes[process]) {
+                boolean res = visit(i, processes, temporaryMarks, permanentMarks);
+                if (res == false) return false;
+            }
+            permanentMarks.add(process);
+            temporaryMarks.remove(process);
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        int numOfCourse = 2;
+        //int[][] prerequisites = {{1},{0}};//0 has dependecies of 1, 1 has dependencies of 0, hence circle exist,, result = false;
+        int[][] prerequisites = {{}, {0}};//0 has dependecies of noone, 1 has dependencies of 0, result = true;
+        canFinish3(numOfCourse, prerequisites);
     }
 }

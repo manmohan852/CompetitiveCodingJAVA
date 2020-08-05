@@ -2,128 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2699ca2-01af-40fa-a84d-1543f3f4a829" name="Default Changelist" comment="cloudy day">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompetitiveCoding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CompetitiveCoding.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Anagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/Anagrams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MedianOfArrays2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MedianOfArrays2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MergeKArrays$QueueNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MergeKArrays$QueueNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MergeKArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/MergeKArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/DiningPhilosophers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/FizzBuzz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/FizzBuzzMultiThreaded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/H2o.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/PrintFooBarAlternatively.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/PrintInOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/PrintZeroEvenOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/PrintZeroEvenOdd2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/concurrency/TheDiningPhilosphers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/design/TicTacToe$Move.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/design/TicTacToe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/SlidingWindowMaximum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/SlidingWindowMaximum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/TrappingRainWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/TrappingRainWater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/WaterTrappedBetweenTwoBuildings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/array/WaterTrappedBetweenTwoBuildings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/dp/CoinCahnge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/dp/CoinCahnge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/graph/MinimumStepsOnInfiniteLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/graph/MinimumStepsOnInfiniteLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/matrix/MinimumTimeToRotAllOranges.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/gfg/matrix/MinimumTimeToRotAllOranges.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/LargestNumber$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/LargestNumber$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/LargestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/LargestNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/MaxSumContiguousSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/MaxSumContiguousSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/dp/LengthOfLongestSubSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/dp/LengthOfLongestSubSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/dp/WaysToDecode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/dp/WaysToDecode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/string/PalindromeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/string/PalindromeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/ArrayListCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/CustomArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/CustomHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/HashMapCustom$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/HashMapCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/HashSetCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/ImageNodeAnd$ImageNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/ImageNodeAnd$ImageNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/ImageNodeAnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/ImageNodeAnd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/LinkedHashMapCustom$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/LinkedHashMapCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/MyMap$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/MyMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/PriorityQueueCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/PriorityQueueEmptyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/PriorityQueueFullException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/QueueCustom$Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/QueueCustom$QueueEmptyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/QueueCustom$QueueFullException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/QueueCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustom$Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustom$StackEmptyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustom$StackFullException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustomGenerics$Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustomGenerics$StackEmptyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustomGenerics$StackFullException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/StackCustomGenerics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TTLBasedHashMap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TTLBasedHashMap$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TTLBasedHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TTLBasedHashMap2$CleanerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TTLBasedHashMap2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TTLPassiveHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TimeCriticalHashMap$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/TimeCriticalHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/DesignLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/DoublelyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/LFUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/LFUCache2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/LFUCache2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/LRUCache$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/LinkNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/PriorityQueueCheck$DescendingIntegerComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/PriorityQueueCheck$IntegerComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/design/PriorityQueueCheck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/Anagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/Anagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/MedianOfArrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/MedianOfArrays2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/MergeKArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/MergeKArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/concurrency/FizzBuzzMultiThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/javaTest/concurrency/leetcode/FizzBuzzMultiThreaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/concurrency/H2o.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/javaTest/concurrency/leetcode/H2o.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/concurrency/PrintFooBarAlternatively.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/javaTest/concurrency/leetcode/PrintFooBarAlternatively.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/concurrency/PrintInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/javaTest/concurrency/leetcode/PrintInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/concurrency/PrintZeroEvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/javaTest/concurrency/leetcode/PrintZeroEvenOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/concurrency/PrintZeroEvenOdd2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/javaTest/concurrency/leetcode/PrintZeroEvenOdd2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/concurrency/TheDiningPhilosphers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/javaTest/concurrency/leetcode/TheDiningPhilosphers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/design/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/oopDesign/TicTacToe/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gfg/array/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/array/SlidingWindowMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gfg/array/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/array/TrappingRainWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gfg/array/WaterTrappedBetweenTwoBuildings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/array/WaterTrappedBetweenTwoBuildings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gfg/dp/CoinCahnge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/dp/CoinCahnge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gfg/graph/IslandsInAGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/graph/IslandsInAGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gfg/graph/MinimumStepsOnInfiniteLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/graph/MinimumStepsOnInfiniteLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/gfg/matrix/MinimumTimeToRotAllOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/gfg/matrix/MinimumTimeToRotAllOranges.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/ibit/array/LargestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/ibit/array/LargestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/ibit/array/MaxSumContiguousSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/ibit/array/MaxSumContiguousSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/ibit/dp/LengthOfLongestSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/ibit/dp/LengthOfLongestSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/ibit/dp/WaysToDecode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/ibit/dp/WaysToDecode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/ibit/string/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/ibit/string/PalindromeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/CustomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/CustomArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/CustomHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/CustomHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/HashSetCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/HashSetCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/ImageNodeAnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/ImageNodeAnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/LinkedHashMapCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/LinkedHashMapCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/PriorityQueueCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/PriorityQueueCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/QueueCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/QueueCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/StackCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/StackCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/StackCustomGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/StackCustomGenerics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/TTLBasedHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/TTLBasedHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/TTLBasedHashMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/TTLBasedHashMap2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/TTLPassiveHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/TTLPassiveHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/interview/TimeCriticalHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/designDS/TimeCriticalHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/leetcode/design/DesignLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/systemDesign/design/DesignLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/leetcode/design/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/systemDesign/design/LFUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/leetcode/design/LFUCache2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/systemDesign/design/LFUCache2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/leetcode/design/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/systemDesign/design/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/leetcode/design/PriorityQueueCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/systemDesign/design/PriorityQueueCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/leetcode/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/leetcode/stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/site/leetcode/twoPointers/LongestWordInDictionaryThroughDeleting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/leetcode/twoPointers/LongestWordInDictionaryThroughDeleting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/BuildOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/byteToByte/BuildOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/designPattern/behavioural/observer/ex1/NewsAgency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/designPattern/behavioural/observer/ex1/NewsAgency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/designPattern/behavioural/observer/ex1/NewsChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/designPattern/behavioural/observer/ex1/NewsChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/designPattern/behavioural/strategy/ex1/PaypalStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/designPattern/behavioural/strategy/ex1/PaypalStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/ibit/array/NextPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/curefit/SubstringsWithAtleastOneUniqueCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/curefit/SubstringsWithAtleastOneUniqueCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/dunjo/CoinsAndEnergy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/dunjo/CoinsAndEnergy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/wheelsye/phoneQuestions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/interview/wheelsye/phoneQuestions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/DP/EditDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/DP/EditDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/linkedList/FlattenAMultilevelDoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CompetitiveCoding/site/leetcode/linkedList/FlattenAMultilevelDoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/byteToByte/BuildOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/byteToByte/BuildOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/designPattern/behavioural/observer/ex1/NewsAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/designPattern/behavioural/observer/ex1/NewsAgency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/designPattern/behavioural/observer/ex1/NewsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/designPattern/behavioural/observer/ex1/NewsChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/designPattern/behavioural/strategy/ex1/PaypalStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/designPattern/behavioural/strategy/ex1/PaypalStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/ibit/array/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/ibit/array/NextPermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/interview/curefit/SubstringsWithAtleastOneUniqueCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/curefit/SubstringsWithAtleastOneUniqueCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/interview/dunjo/CoinsAndEnergy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/dunjo/CoinsAndEnergy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/interview/wheelsye/phoneQuestions" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/interview/wheelsye/phoneQuestions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/leetcode/DP/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/leetcode/DP/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/leetcode/array/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/site/leetcode/array/ProductExceptSelf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +37,7 @@
     </execution>
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="201" />
+    <option name="myElementSize" value="202" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -156,12 +56,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaFXApplication" />
         <option value="Kotlin File" />
         <option value="AnnotationType" />
         <option value="Kotlin Enum" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="JavaFXApplication" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -192,7 +92,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/site/systemDesign/RateLimiter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/site/interview/rupeek" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -211,13 +111,18 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="site.designPattern.structural.flyweight.ex1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/site/interview/rupeek" />
+      <recent name="$PROJECT_DIR$/src/site/interview/amazon" />
+      <recent name="$PROJECT_DIR$/src/site/interview/microsoft" />
+      <recent name="$PROJECT_DIR$/src/site/systemDesign/RateLimiter" />
+      <recent name="$PROJECT_DIR$/src/site/interview/dunjo" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/site/systemDesign/RateLimiter" />
-      <recent name="$PROJECT_DIR$/src/site/interview/dunjo" />
-      <recent name="$PROJECT_DIR$/src/site/byteToByte" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/site/oopDesign/CarromBoard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,13 +137,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlattenAMultilevelDoublyLinkedList">
-    <configuration name="FlattenAMultilevelDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.leetcode.linkedList.FlattenAMultilevelDoublyLinkedList" />
+  <component name="RunManager" selected="Application.SortElementByFrequency">
+    <configuration name="Energy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.hk.dp.Energy" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.leetcode.linkedList.*" />
+          <option name="PATTERN" value="site.hk.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IslandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.leetcode.BFS.IslandPerimeter" />
+    <configuration name="FindFreeTimeForMeetings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.interview.amazon.FindFreeTimeForMeetings" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.leetcode.BFS.*" />
+          <option name="PATTERN" value="site.interview.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumWidthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.leetcode.binaryTree.MaximumWidthOfBinaryTree" />
+    <configuration name="IsSubTreeOfAnotherTree2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.gfg.binarytree.IsSubTreeOfAnotherTree2" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.leetcode.binaryTree.*" />
+          <option name="PATTERN" value="site.gfg.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.leetcode.binarySearch.ThreeSum" />
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.leetcode.array.SortColors" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.leetcode.binarySearch.*" />
+          <option name="PATTERN" value="site.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.leetcode.binarySearch.ThreeSumClosest" />
+    <configuration name="SortElementByFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.gfg.array.SortElementByFrequency" />
       <module name="CompetitiveCoding" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.leetcode.binarySearch.*" />
+          <option name="PATTERN" value="site.gfg.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,20 +215,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IslandPerimeter" />
-      <item itemvalue="Application.ThreeSum" />
-      <item itemvalue="Application.ThreeSumClosest" />
-      <item itemvalue="Application.MaximumWidthOfBinaryTree" />
+      <item itemvalue="Application.IsSubTreeOfAnotherTree2" />
+      <item itemvalue="Application.SortColors" />
+      <item itemvalue="Application.Energy" />
+      <item itemvalue="Application.FindFreeTimeForMeetings" />
+      <item itemvalue="Application.SortElementByFrequency" />
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="Application.FlattenAMultilevelDoublyLinkedList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlattenAMultilevelDoublyLinkedList" />
-        <item itemvalue="Application.MaximumWidthOfBinaryTree" />
-        <item itemvalue="Application.ThreeSumClosest" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.IslandPerimeter" />
+        <item itemvalue="Application.SortElementByFrequency" />
+        <item itemvalue="Application.FindFreeTimeForMeetings" />
+        <item itemvalue="Application.Energy" />
+        <item itemvalue="Application.SortColors" />
+        <item itemvalue="Application.IsSubTreeOfAnotherTree2" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +260,15 @@
       <workItem from="1593145417468" duration="30624000" />
       <workItem from="1593585328457" duration="40770000" />
       <workItem from="1593824523915" duration="51586000" />
-      <workItem from="1594378194238" duration="7461000" />
+      <workItem from="1594378194238" duration="68838000" />
+      <workItem from="1595314251655" duration="434000" />
+      <workItem from="1595324853365" duration="13272000" />
+      <workItem from="1595727062959" duration="14882000" />
+      <workItem from="1596048222788" duration="14434000" />
+      <workItem from="1596383809056" duration="2089000" />
+      <workItem from="1596392613238" duration="2518000" />
+      <workItem from="1596422488650" duration="8032000" />
+      <workItem from="1596529608597" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="cloudy day">
       <created>1550545175566</created>
@@ -838,7 +751,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinsAndEnergy.java</url>
-          <line>85</line>
+          <line>86</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -858,17 +771,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinsAndEnergy.java</url>
-          <line>81</line>
+          <line>82</line>
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinsAndEnergy.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinsAndEnergy.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1341,6 +1249,352 @@
           <line>25</line>
           <option name="timeStamp" value="313" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/backtracking/Subsets.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/backtracking/Subsets2.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/backtracking/Subsets.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/backtracking/Subsets.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/backtracking/WordSubsets.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/backtracking/WordSubsets.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/backtracking/PartitionToKEqualSumSubsets.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/LongestCharactersWithoutRepeating.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/curefit/SubstringsWithAtleastOneUniqueCharacters.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/curefit/SubstringsWithAtleastOneUniqueCharacters.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/RemoveDuplicatesFromSortedArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/LongestSubstringWithAtMostKDistinctCharacters.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/LongestSubstringWithAtMostKDistinctCharacters.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/array/MergeSortedArray.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/array/MergeSortedArray.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/NextPermutation.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/NextPermutation.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/NextPermutation.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/ibit/array/NextPermutation.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/bits/ReverseBits.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/bits/ReverseBits.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/Math/AngleBetweenHandsOfAClock.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/ReverseAString.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/ReverseAString.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/ReverseAString.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/ReverseAString.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/ReverseAString.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/string/ReverseAString.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/dunjo/FoorballScores.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/dunjo/FoorballScores.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/graph/MinCostPath.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/graph/MinCostPath.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/graph/MinCostPath.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/heap/TopKFrequentElements.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/heap/TopKFrequentElements.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/heap/TopKFrequentElements.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseScheduleII.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseScheduleII.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseScheduleII.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseScheduleII.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseScheduleIII.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseSchedulesIV.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseSchedulesIV.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseSchedulesIV.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/BFS/CourseSchedulesIV.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/DP/EditDistance.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinAndEnergy2.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinAndEnergy2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinAndEnergy2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/dunjo/CoinAndEnergy2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/amazon/checkWinner.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/amazon/checkWinner.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/amazon/closestLocations.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/DP/NumberOfDiceRollsWithTargetSum.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/matrix/WallsAndGates.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/matrix/WallsAndGates.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/binarytree/IsSubTreeOfAnotherTree2.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/binarytree/IsSubTreeOfAnotherTree2.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/array/SortColors.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/rupeek/APairWithLeastEnergy.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/amazon/FindFreeTimeForMeetings.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/amazon/FindFreeTimeForMeetings.java</url>
+          <line>20</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/interview/amazon/FindFreeTimeForMeetings.java</url>
+          <line>23</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/binarytree/ConnectNodesAtSameLevel.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/SortElementByFrequency.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/SortElementByFrequency.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/SortElementByFrequency.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/site/gfg/array/SortElementByFrequency.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/site/oopDesign/Chess/ChessGame.java</url>
           <line>23</line>
@@ -1348,6 +1602,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/site/leetcode/Math/IntegerToEnglishWords.java</url>
+          <line>77</line>
+          <properties class="site.leetcode.Math.IntegerToEnglishWords" method="two">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="341" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/site/designPattern/behavioural/visitor/ex1/Fruit.java</url>
@@ -1359,14 +1621,26 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$AngleBetweenHandsOfAClock.ic" NAME="AngleBetweenHandsOfAClock Coverage Results" MODIFIED="1594720509943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>site.leetcode.Math.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$BinaryTreeLevelOrderTraversal2.ic" NAME="BinaryTreeLevelOrderTraversal2 Coverage Results" MODIFIED="1593714327765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>site.leetcode.binaryTree.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$SharePurchases.ic" NAME="SharePurchases Coverage Results" MODIFIED="1591783998928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>site.interview.gsachs.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$TopKFrequentElements.ic" NAME="TopKFrequentElements Coverage Results" MODIFIED="1594993606220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>site.gfg.heap.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$checkWinner.ic" NAME="checkWinner Coverage Results" MODIFIED="1595727950070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>site.gfg.string.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$LargestIncreasingSubarrayRemoveAtMostOneElement.ic" NAME="LargestIncreasingSubarrayRemoveAtMostOneElement Coverage Results" MODIFIED="1590578983841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>site.interview.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CompetitiveCodingJAVA$Subsets2.ic" NAME="Subsets2 Coverage Results" MODIFIED="1594470242796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>site.leetcode.backtracking.*</FILTER>
     </SUITE>
   </component>
 </project>

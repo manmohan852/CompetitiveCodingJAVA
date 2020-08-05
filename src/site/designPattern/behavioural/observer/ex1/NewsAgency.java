@@ -1,7 +1,5 @@
 package site.designPattern.behavioural.observer.ex1;
 
-import site.designPattern.behavioural.observer.ex1.Channel;
-
 import java.util.ArrayList;
 import java.util.List;
 

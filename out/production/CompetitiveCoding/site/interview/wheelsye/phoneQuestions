@@ -6,7 +6,7 @@ Worst Case of quick sort :
     2) Array is already sorted in reverse order.
     3) All elements are same (special case of case 1 and 2)
     4) worst case can still occur if the input array is such that the maximum (or minimum) element is always chosen as pivot.
-Difference between minute hand and hour ahnd at 3:15 : 30 / 4 = 7.5 degree
+Difference between minute hand and hour hand at 3:15 : 30 / 4 = 7.5 degree
 What happens if you use binary search in insertion sort ?
     In normal insertion sort, it takes O(n^2) comparisons(at nth iteration) in worst case. We can reduce it to O(log n) by using binary search.
     Time Complexity: The algorithm as a whole still has a running worst case running time of O(n^2)
