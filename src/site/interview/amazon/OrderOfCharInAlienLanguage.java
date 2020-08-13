@@ -1,8 +1,8 @@
-package site.gfg.sorting;
+package site.interview.amazon;
 
 import java.util.LinkedList;
 import java.util.Stack;
-
+//https://leetcode.com/problems/alien-dictionary/
 //https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
 ////The above algorithm is simply DFS with an extra stack. So time complexity is the same as DFS which is O(V+E).
 public class OrderOfCharInAlienLanguage {

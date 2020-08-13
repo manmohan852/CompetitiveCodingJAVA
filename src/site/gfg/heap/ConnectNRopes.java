@@ -1,5 +1,5 @@
 package site.gfg.heap;
-
+//https://leetcode.com/problems/minimum-cost-to-connect-sticks/
 ////https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/
 //Time complexity :  O(nLogn)
 public class ConnectNRopes {

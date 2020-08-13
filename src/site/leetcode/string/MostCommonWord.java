@@ -32,7 +32,8 @@ public class MostCommonWord {
 
     public String mostCommonWord2(String paragraph, String[] banned) {
         Map<String, Integer> map = new HashMap<>();
-        Set<String> bannedSet = Set.of(banned);
+        Set<String> bannedSet = new HashSet<>();
+        bannedSet.addAll(Arrays.asList(banned));
         String[] words = paragraph.split("\\W");
 
         for (String word : words) {
@@ -55,7 +56,7 @@ public class MostCommonWord {
     public String mostCommonWord3(String paragraph, String[] banned) {
         List<String> banList = Arrays.asList(banned);
         return Arrays.stream(paragraph.toLowerCase().split("\\W")) //stream of strings
-                .filter(s -> !s.isBlank() && !banList.contains(s)) //just use non-empty strings and strings not contained in banList
+                .filter(s -> !s.isEmpty() && !banList.contains(s)) //just use non-empty strings and strings not contained in banList
                 .collect(Collectors.groupingBy(s -> s, Collectors.counting()))//group strings by count, this will return a map string,count
                 .entrySet()//get entrySet
                 .stream()//get stream of entrySet

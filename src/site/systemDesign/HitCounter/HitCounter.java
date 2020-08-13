@@ -57,7 +57,7 @@ public class HitCounter {
      * @return number of request in the last X seconds.
      */
     public long getHits() {
-        final var timestamp = Instant.now().getEpochSecond();
+        final long timestamp = Instant.now().getEpochSecond();
         // We filter to get only the hits from the last X seconds.
         return IntStream.range(0, times.length)
                 .filter(i -> timestamp - times[i] < this.rangeInSecond)

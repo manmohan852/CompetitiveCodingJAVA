@@ -15,7 +15,7 @@ public class Subsets {
         for (int num : nums) {
             List<List<Integer>> newSubsets = new ArrayList();
             for (List<Integer> curr : output) {
-                newSubsets.add(new ArrayList<>(curr){{add(num);}});
+                newSubsets.add(new ArrayList<Integer>(curr){{add(num);}});
             }
             for (List<Integer> curr : newSubsets) {
                 output.add(curr);

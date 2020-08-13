@@ -44,7 +44,7 @@ public class CountOfHoursVariations {
 
                 if (hours < 24 && minutes < 60 || hours == 24 && minutes == 0) {
                     if (savedHours.get(hours) == null) {
-                        savedHours.put(hours, new HashSet<>() {
+                        savedHours.put(hours, new HashSet<Integer>() {
                             {
                                 add(minutes);
                             }
