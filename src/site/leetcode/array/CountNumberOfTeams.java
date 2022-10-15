@@ -52,4 +52,31 @@ public class CountNumberOfTeams {
         return answer;
     }
 
+    public int numTeams3(int[] a) {
+        int ans = 0;
+        int n = a.length;
+        for (int i=0; i<n; i++)
+        {
+            int cnt = 0, cnt2 = 0;
+            for (int j=0; j<i; j++)
+                if (a[j] < a[i]) cnt++;
+            for (int j=i+1; j<n; j++)
+                if (a[j] > a[i]) cnt2++;
+            ans += cnt * cnt2;
+        }
+
+
+        for (int i=0; i<n; i++)
+        {
+            int cnt = 0, cnt2 = 0;
+            for (int j=0; j<i; j++)
+                if (a[j] > a[i]) cnt++;
+            for (int j=i+1; j<n; j++)
+                if (a[j] < a[i]) cnt2++;
+            ans += cnt * cnt2;
+        }
+        return ans;
+
+    }
+
 }

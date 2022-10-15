@@ -18,6 +18,7 @@ public class FrogPositionAfterTSeconds {
             children[i] = new ArrayList<>();
         }
 
+
         for (int i = 0; i < edges.length; i++) {
             int from = edges[i][0];
             int to = edges[i][1];
