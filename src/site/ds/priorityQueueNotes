@@ -1,0 +1,6 @@
+The java.util.PriorityQueue.poll() method in Java is used to retrieve or fetch and remove the first element
+of the Queue or the element present at the head of the Queue.
+
+The peek() method only retrieved the element at the head but the poll() also removes the element
+along with the retrieval. It returns NULL if the queue is empty.
+

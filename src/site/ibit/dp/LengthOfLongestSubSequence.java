@@ -1,10 +1,9 @@
 package site.ibit.dp;
 
-import java.awt.image.AreaAveragingScaleFilter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+//https://www.interviewbit.com/problems/length-of-longest-subsequence/
 public class LengthOfLongestSubSequence {
 
     public static int longestSubsequenceLength(final List<Integer> A){

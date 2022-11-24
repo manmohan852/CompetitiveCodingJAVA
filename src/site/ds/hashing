@@ -1,0 +1,48 @@
+https://www.geeksforgeeks.org/override-equalsobject-hashcode-method/
+
+Working of HashMap and HashSet::
+
+Hashing retrieval involves:
+First, find out the right bucket using hashCode().
+Secondly, search the bucket for the right element using equals()
+
+Let us consider all the cases of Overriding in these methods
+
+Case 1: Overriding both equals(Object) and hashCode() method
+equal objects will have same hashcode, hence adding the same key will overwrite the earlier object.
+
+You must override hashCode() in every class that overrides equals().
+Failure to do so will result in a violation of the general contract for Object.hashCode(),
+which will prevent your class from functioning properly in conjunction with all hash-based collections,
+including HashMap, HashSet, and Hashtable. (-Joshua Bloch)
+
+Case 2 : Overriding only the equals(Object) method
+Geek g1 = new Geek("aditya", 1);
+Geek g2 = new Geek("aditya", 1);
+Map<Geek, String> map = new HashMap<Geek, String>();
+map.put(g1, "CSE");
+map.put(g2, "IT");
+
+since we have not override the hascode method, so both of object Geek, will have different hashcode,
+hence they will get add to different bucket in the hashmap;
+hence again there will be duplicates key in the hashmap.
+hash(g1) = yuu
+hash(g2) = yy
+bucket no yuu = [g1,CSE]
+bucket no yy = [g2,IT]
+
+
+Case 3: Overriding only hashCode() method
+Map map = new HashMap();
+map.put(“xyz”, “CSE”);
+map.put(“xyz”, “IT”);
+they will get the same bucket location, but since we have not override the equals methods,
+so they not overwrite each other, hence will get append at the same bucket location,
+so the map will have duplicates in this case;
+hash(xyx) = yy
+we will have two nodes at bucket yy:
+bucket no yy = [xyz,CSE] -> [xyz,IT]
+
+
+
+

@@ -1,0 +1,18 @@
+open for extension but closed for modification
+
+Adapter Pattern VS Decorator Pattern::::
+Adapter Pattern:
+Makes a wrapper (Adapter) to create compatibility/conversion from one interface to the other interface which are incompatible.
+Wrapper (Adapter) works on two incompatible interfaces/classes.
+The intenstion of writing the wrapper class is to resolve the differences and make the interfaces compatible.
+We rarely add any functionality in the wrapper class.
+
+Decorator Pattern:
+Makes a wrapper (Decorator) to add/modify functionalities in the interface/class without changing the original code of the class.
+We use Abstract wrapper to implement this pattern, in general.
+Wrapper (Decorator) works on single interface/class.
+The intension of writing the wrapper class is to add/modify functionalities of the interface/class.
+There is no incompatibility issue since we deal only with one interface/classes at a time.
+
+Factory Design Pattern:
+https://medium.com/@kousiknath/design-patterns-different-approaches-to-use-factory-pattern-to-choose-objects-dynamically-at-run-71449bceecef

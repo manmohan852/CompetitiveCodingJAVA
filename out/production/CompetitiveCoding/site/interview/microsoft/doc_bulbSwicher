@@ -1,0 +1,21 @@
+https://leetcode.com/problems/bulb-switcher/discuss/758527/1-Line-Solution-in-JAVA-100-faster
+The idea behind this-
+All the bulbs will become off excpet the perfect square numbers because these numbers will access only two time -
+
+it will access by its square root that will switch off the bulb and
+it will access by itself so that this bulb will become on.
+Ex - if n = 7,
+at the first, all the bulbs are on.
+2nd time-[on,off,on,off,on,off,on]
+3rd time - [on,off,off,off,on,on,on]
+4th time -[on,off,off,on,on,on,on]
+5th time -[on,off,off,on,off,on,on]
+6th time- [on,off,off,on,off,off,on]
+7th time -[on,off,off,on,off,off,off]
+so only 2 bulbs are on that is 1 & 4.
+
+class Solution {
+    public int bulbSwitch(int n) {
+        return (int)Math.floor((int)Math.sqrt(n));
+    }
+}
