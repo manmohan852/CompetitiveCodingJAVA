@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CompetitiveCoding.iml" filepath="$PROJECT_DIR$/CompetitiveCoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CompetitiveCodingJAVA.iml" filepath="$PROJECT_DIR$/CompetitiveCodingJAVA.iml" />
     </modules>
   </component>
 </project>
