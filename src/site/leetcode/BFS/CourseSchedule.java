@@ -1,9 +1,19 @@
 package site.leetcode.BFS;
 
+import org.junit.experimental.max.CouldNotReadCoreException;
+
 import java.util.*;
 
 //https://leetcode.com/problems/course-schedule/
 public class CourseSchedule {
+
+    public static void main(String[] args) {
+        int numCourses = 2;
+        int[][] prerequisites1 = {{1,0}};
+        int[][] prerequisites2 = {{1,0},{0,1}};
+        boolean ans = canFinish(numCourses, prerequisites2);
+        System.out.println(ans);
+    }
 
     //BFS with indegree
     public static boolean canFinish(int numCourses, int[][] prerequisites) {
@@ -16,6 +26,7 @@ public class CourseSchedule {
             graph[e[0]].add(e[1]);
             indegree[e[1]]++;
         }
+        //  Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < numCourses; i++) {
             if (indegree[i] == 0)
