@@ -39,7 +39,7 @@ public class JumpGameIV {
             }
             List<Integer> nextList = map.get(arr[pos]);
             if(nextList!=null){
-                for(int i=0; i<nextList.size(); i++){
+                for(int i=0; i<nextList.size(); i++){d
                     int next = nextList.get(i);
                     if(next!=pos && dist[next]>curDist+1){
                         dist[next] = curDist+1;
