@@ -3,8 +3,8 @@ package november.LinkedList;
 import site.systemDesign.lruCache.ListNode;
 
 public class reverseLinkedList {
-}
-class Solution {
+
+
     public ListNode reverseList(ListNode head) {
         ListNode cur = head;
         ListNode prev = null;

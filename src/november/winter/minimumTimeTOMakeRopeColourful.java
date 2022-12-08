@@ -8,7 +8,7 @@ public class minimumTimeTOMakeRopeColourful {
     public static void main(String[] args) {
         String colors = "abaac";
         int[] arr = {1, 2, 3 , 4, 5};
-        ans = minCost(colors, arr);
+        int ans = minCost(colors, arr);
         System.out.println(ans);
     }
     public static int minCost(String colors, int @NotNull [] neededTime) {

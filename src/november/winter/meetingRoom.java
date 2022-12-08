@@ -14,6 +14,10 @@ class Interval {
   }
 
 public class meetingRoom {
+//    public static void main(String[] args) {
+//        Interval[][] intervals = {{2, 5}, {3, 7}, {9, 15}};
+//        boolean ans = canAttendMeetings(intervals);
+//    }
     public static boolean canAttendMeetings(Interval[] intervals) {
         if(intervals == null || intervals.length == 0) return true;
 
