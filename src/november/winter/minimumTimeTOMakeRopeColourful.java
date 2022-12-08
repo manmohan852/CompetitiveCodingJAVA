@@ -1,4 +1,7 @@
 package november.winter;
+
+import org.jetbrains.annotations.NotNull;
+
 // https://leetcode.com/problems/minimum-time-to-make-rope-colorful/solutions/2551268/official-solution/
 //  https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/
 public class minimumTimeTOMakeRopeColourful {
@@ -8,7 +11,7 @@ public class minimumTimeTOMakeRopeColourful {
         ans = minCost(colors, arr);
         System.out.println(ans);
     }
-    public static int minCost(String colors, int[] neededTime) {
+    public static int minCost(String colors, int @NotNull [] neededTime) {
         // Initalize two pointers i, j.
         int totalTime = 0;
         int i = 0, j = 0;

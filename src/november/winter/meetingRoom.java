@@ -1,17 +1,20 @@
 package november.winter;
 //https://leetcode.com/problems/meeting-rooms/
 // solution - https://leetcode.com/problems/meeting-rooms/solutions/67787/clean-java-solution-with-detailed-explanation/
-/**
- * Definition for an interval.
- * public class Interval {
- *     int start;
- *     int end;
- *     Interval() { start = 0; end = 0; }
- *     Interval(int s, int e) { start = s; end = e; }
- * }
- */
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+//  Definition for an interval.
+class Interval {
+      int start;
+      int end;
+      Interval() { start = 0; end = 0; }
+      Interval(int s, int e) { start = s; end = e; }
+  }
+
 public class meetingRoom {
-    public boolean canAttendMeetings(Interval[] intervals) {
+    public static boolean canAttendMeetings(Interval[] intervals) {
         if(intervals == null || intervals.length == 0) return true;
 
         Arrays.sort(intervals, new Comparator<Interval>(){

@@ -10,7 +10,7 @@ public class JumpGameIV {
         int ans = minJumps(arr);
         System.out.println(ans);
     }
-    public int minJumps(int[] arr) {
+    public static  int minJumps(int[] arr) {
         int n = arr.length;
         HashMap<Integer, List<Integer>> map = new HashMap();
         for(int i=0; i<n; i++){
@@ -39,7 +39,7 @@ public class JumpGameIV {
             }
             List<Integer> nextList = map.get(arr[pos]);
             if(nextList!=null){
-                for(int i=0; i<nextList.size(); i++){d
+                for(int i=0; i<nextList.size(); i++){
                     int next = nextList.get(i);
                     if(next!=pos && dist[next]>curDist+1){
                         dist[next] = curDist+1;
