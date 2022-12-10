@@ -1,6 +1,10 @@
 package november.Leetcode;
 //https://leetcode.com/problems/sort-colors/description/
 //https://leetcode.com/problems/move-zeroes/description/
+
+//Time complexity : O(N) since it's one pass along the array of length N.
+//
+//        Space complexity : O(1) since it's a constant space solution.
 public class sortColors {
     public static void main(String[] args) {
         int[] nums = {2,0,2,1,1,0};
