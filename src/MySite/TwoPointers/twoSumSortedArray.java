@@ -1,5 +1,5 @@
 package MySite.TwoPointers;
-
+//https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 public class twoSumSortedArray {
     public static void main(String[] args) {
         int[] nums = {2,7,11,15};
