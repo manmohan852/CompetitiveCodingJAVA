@@ -1,55 +1,26 @@
-class Test
-{
-    String str = "a";
-
-    void A()
-    {
-        try
-        {
-            str +="b";
-            B();
-        }
-        catch (Exception e)
-        {
-            str += "c";
-        }
+class Grandparent {
+    public void Print() {
+        System.out.println("Grandparent's Print()");
     }
+}
 
-    void B() throws Exception
-    {
-        try
-        {
-            str += "d";
-            C();
-        }
-        catch(Exception e)
-        {
-            throw new Exception();
-        }
-        finally
-        {
-            str += "e";
-        }
-
-        str += "f";
-
+class Parent extends Grandparent {
+    public void Print() {
+        super.Print();
+        System.out.println("Parent's Print()");
     }
+}
 
-    void C() throws Exception
-    {
-        throw new Exception();
+class Child extends Parent {
+    public void Print() {
+        super.Print();
+        System.out.println("Child's Print()");
     }
+}
 
-    void display()
-    {
-        System.out.println(str);
+class Main {
+    public static void main(String[] args) {
+        Child c = new Child();
+        c.Print();
     }
-
-    public static void main(String[] args)
-    {
-        Test object = new Test();
-        object.A();
-        object.display();
-    }
-
 }
