@@ -1,29 +1,38 @@
-// Java Code to show use of
-// super keyword with constructor
+// Java program to show use of super with methods
 
 // superclass Person
 class Person {
-    Person()
+    void message()
     {
-        System.out.println("Person class Constructor");
+        System.out.println("This is person class\n");
     }
 }
-
-// subclass Student extending the Person class
+// Subclass Student
 class Student extends Person {
-    Student()
+    void message()
     {
-        // invoke or call parent class constructor
-        //super();
+        System.out.println("This is student class");
+    }
+    // Note that display() is
+    // only in Student class
+    void display()
+    {
+        // will invoke or call current
+        // class message() method
+        message();
 
-        System.out.println("Student class Constructor");
+        // will invoke or call parent
+        // class message() method
+        super.message();
     }
 }
-
 // Driver Program
 class Test {
-    public static void main(String[] args)
+    public static void main(String args[])
     {
         Student s = new Student();
+
+        // calling display() of Student
+        s.display();
     }
 }
