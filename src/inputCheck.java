@@ -1,38 +1,27 @@
-// Java program to show use of super with methods
+public class Test
+{
+    public Test()
+    {
+        System.out.printf("1");
+        new Test(10);
+        System.out.printf("5");
+    }
+    public Test(int temp)
+    {
+        System.out.printf("2");
+        new Test(10, 20);
+        System.out.printf("4");
+    }
+    public Test(int data, int temp)
+    {
+        System.out.printf("3");
 
-// superclass Person
-class Person {
-    void message()
-    {
-        System.out.println("This is person class\n");
     }
-}
-// Subclass Student
-class Student extends Person {
-    void message()
-    {
-        System.out.println("This is student class");
-    }
-    // Note that display() is
-    // only in Student class
-    void display()
-    {
-        // will invoke or call current
-        // class message() method
-        message();
 
-        // will invoke or call parent
-        // class message() method
-        super.message();
-    }
-}
-// Driver Program
-class Test {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
-        Student s = new Student();
+        Test obj = new Test();
 
-        // calling display() of Student
-        s.display();
     }
+
 }
