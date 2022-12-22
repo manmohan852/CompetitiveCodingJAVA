@@ -1,25 +1,27 @@
-class Temp
+public class Test implements Runnable
 {
-    private Temp(int data)
+    public void run()
     {
-        System.out.printf(" Constructor called ");
+        System.out.printf(" Thread's running ");
     }
-    protected static Temp create(int data)
-    {
-        Temp obj = new Temp(data);
-        return obj;
-    }
-    public void myMethod()
-    {
-        System.out.printf(" Method called ");
-    }
-}
 
-public class Test
-{
+	try
+    {
+		public Test()
+        {
+            Thread.sleep(5000);
+        }
+    }
+	catch (InterruptedException e)
+    {
+        e.printStackTrace();
+    }
+
     public static void main(String[] args)
     {
-        Temp obj = Temp.create(20);
-        obj.myMethod();
+        Test obj = new Test();
+        Thread thread = new Thread(obj);
+        thread.start();
+        System.out.printf(" GFG ");
     }
 }
