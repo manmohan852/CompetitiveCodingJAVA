@@ -1,27 +1,22 @@
-public class Test implements Runnable
+class Base
 {
-    public void run()
+    public static String s = " Super Class ";
+    public Base()
     {
-        System.out.printf(" Thread's running ");
+        System.out.printf("1");
     }
-
-	try
+}
+public class Derived extends Base
+{
+    public Derived()
     {
-		public Test()
-        {
-            Thread.sleep(5000);
-        }
-    }
-	catch (InterruptedException e)
-    {
-        e.printStackTrace();
+        System.out.printf("2");
+        super();
     }
 
     public static void main(String[] args)
     {
-        Test obj = new Test();
-        Thread thread = new Thread(obj);
-        thread.start();
-        System.out.printf(" GFG ");
+        Derived obj = new Derived();
+        System.out.printf(s);
     }
 }
