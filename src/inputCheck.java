@@ -1,22 +1,16 @@
-class Base
+class Helper
 {
-    public static String s = " Super Class ";
-    public Base()
+    private int data;
+    private Helper()
     {
-        System.out.printf("1");
+        data = 5;
     }
 }
-public class Derived extends Base
+public class Test
 {
-    public Derived()
-    {
-        System.out.printf("2");
-        super();
-    }
-
     public static void main(String[] args)
     {
-        Derived obj = new Derived();
-        System.out.printf(s);
+        Helper help = new Helper();
+        System.out.println(help.data);
     }
 }
