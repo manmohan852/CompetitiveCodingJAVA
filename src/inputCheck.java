@@ -1,16 +1,13 @@
-class Helper
+public class Calculator
 {
-    private int data;
-    private Helper()
-    {
-        data = 5;
-    }
-}
-public class Test
-{
+    int num = 100;
+    public void calc(int num) { this.num = num * 10; }
+    public void printNum()	 { System.out.println(num); }
+
     public static void main(String[] args)
     {
-        Helper help = new Helper();
-        System.out.println(help.data);
+        Calculator obj = new Calculator();
+        obj.calc(2);
+        obj.printNum();
     }
 }
