@@ -1,4 +1,6 @@
-class inputCheck{
+package november.interviews.ezetap.mintifi;
+
+public class questionOne {
     public static void main(String[] args) {
         String s = "my name is manmohan";
         String[] str= s.split(" ");
