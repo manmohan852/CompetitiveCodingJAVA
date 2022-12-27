@@ -1,0 +1,32 @@
+String s = "my name is manmohan";
+String[] str= s.split(" ");
+StringBuilder sb = new StringBuilder();
+for(int i = n - 1 ; i > 0; i++){
+	sb.append(str[i]);
+}
+System.out.println(sb.toString());
+
+
+
+String str = "Java is great Python is also great";
+String[] str= s.split(" ");
+StringBuilder sb = new StringBuilder();
+for(int i = n - 1 ; i > 0; i++){
+	if(sb.contains(str[i]))
+		continue;
+	sb.append(str[i] + " ");
+
+}
+System.out.println(sb.toString());
+
+int[] num = {3,4,5,4,5,4};
+int n = nums.length;
+int[] arr = new int[10];
+for(int i = 0; i < n; i++){
+	arr[nums[i]]++;
+}
+for(int i = 0; i < arr.length; i++){
+	if(arr[i] == 0){
+
+}
+}
