@@ -39,7 +39,7 @@ public class MyTopic implements Subject {
             this.changed=false;
         }
         for (Observer obj : observersLocal) {
-            obj.update();
+            obj.update(m);
         }
 
     }

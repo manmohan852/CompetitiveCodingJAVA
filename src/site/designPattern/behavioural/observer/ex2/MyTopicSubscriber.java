@@ -1,5 +1,7 @@
 package site.designPattern.behavioural.observer.ex2;
 
+import MySite.DesignPattern.observer.exp2.Message;
+
 public class MyTopicSubscriber implements Observer {
 
     private String name;
@@ -9,7 +11,7 @@ public class MyTopicSubscriber implements Observer {
         this.name=nm;
     }
     @Override
-    public void update() {
+    public void update(Message m) {
         String msg = (String) topic.getUpdate(this);
         if(msg == null){
             System.out.println(name+":: No new message");

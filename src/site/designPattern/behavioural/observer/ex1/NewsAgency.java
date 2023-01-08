@@ -3,7 +3,7 @@ package site.designPattern.behavioural.observer.ex1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NewsAgency {
+public class    NewsAgency {
     private String news;
     private List<Channel> channels = new ArrayList<>();
 
