@@ -5,7 +5,7 @@ package MySite.coreJava;
 import java.util.concurrent.*;
 import java.util.function.IntConsumer;
 
-class PrintZeroEvenOdd {
+    class PrintZeroEvenOdd {
     private int n;
     Semaphore runZero, runOdd, runEven;
 

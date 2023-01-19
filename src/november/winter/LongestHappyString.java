@@ -1,5 +1,5 @@
 package november.winter;
-
+// https://leetcode.com/problems/longest-happy-string/description/
 public class LongestHappyString {
     public static void main(String[] args) {
         int a = 1, b = 1, c = 7;
