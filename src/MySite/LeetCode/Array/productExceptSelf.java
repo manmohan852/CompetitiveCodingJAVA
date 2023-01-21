@@ -1,4 +1,4 @@
-package november.Leetcode;
+package MySite.LeetCode.Array;
 //https://leetcode.com/problems/product-of-array-except-self/description/
 public class productExceptSelf {
     public static void main(String[] args) {
