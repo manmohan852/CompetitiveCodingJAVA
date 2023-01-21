@@ -1,4 +1,4 @@
-package november.winter;
+package MySite.LeetCode.Intervals;
 //https://leetcode.com/problems/meeting-rooms/
 // solution - https://leetcode.com/problems/meeting-rooms/solutions/67787/clean-java-solution-with-detailed-explanation/
 

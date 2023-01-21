@@ -1,4 +1,4 @@
-package november.winter;
+package MySite.LeetCode;
 
 import org.jetbrains.annotations.NotNull;
 

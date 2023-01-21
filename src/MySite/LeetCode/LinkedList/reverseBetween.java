@@ -1,6 +1,4 @@
-package november.LinkedList;
-
-import java.util.LinkedList;
+package MySite.LeetCode.LinkedList;
 
 class ListNode {
       int val;

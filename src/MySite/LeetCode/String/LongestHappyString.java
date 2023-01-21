@@ -1,4 +1,4 @@
-package november.winter;
+package MySite.LeetCode.String;
 // https://leetcode.com/problems/longest-happy-string/description/
 public class LongestHappyString {
     public static void main(String[] args) {

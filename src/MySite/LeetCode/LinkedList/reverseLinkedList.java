@@ -1,4 +1,4 @@
-package november.LinkedList;
+package MySite.LeetCode.LinkedList;
 
 import site.systemDesign.lruCache.ListNode;
 
