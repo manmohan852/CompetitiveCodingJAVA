@@ -1,4 +1,4 @@
-package november.Leetcode;
+package MySite.LeetCode.Array;
 //https://leetcode.com/problems/minimum-size-subarray-sum/description/
 public class MinimumSizeSubarraySum {
     public static void main(String[] args) {
