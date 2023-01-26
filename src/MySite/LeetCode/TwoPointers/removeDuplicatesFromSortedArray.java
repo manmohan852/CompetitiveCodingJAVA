@@ -1,4 +1,4 @@
-package MySite.TwoPointers;
+package MySite.LeetCode.TwoPointers;
 //https://leetcode.com/problems/remove-duplicates-from-sorted-array/>
 public class removeDuplicatesFromSortedArray {
     public static void main(String[] args) {
