@@ -1,5 +1,5 @@
 package MySite.LeetCode.SlidingWindow;
-
+// https://leetcode.com/problems/max-consecutive-ones/
 public class maxConsecutiveOnes {
     public static void main(String[] args) {
 
