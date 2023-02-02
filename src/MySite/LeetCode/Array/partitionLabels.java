@@ -2,7 +2,7 @@ package MySite.LeetCode.Array;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// https://leetcode.com/problems/partition-labels/
 public class partitionLabels {
     public static void main(String[] args) {
 

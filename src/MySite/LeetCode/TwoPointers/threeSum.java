@@ -3,7 +3,7 @@ package MySite.LeetCode.TwoPointers;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+// https://leetcode.com/problems/3sum/
 public class threeSum {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5, 6 ,1 ,2, 1};

@@ -1,5 +1,5 @@
 package MySite.LeetCode.TwoPointers;
-
+// https://leetcode.com/problems/3sum-smaller/
 import java.util.Arrays;
 
 public class threeSumSmaller {
