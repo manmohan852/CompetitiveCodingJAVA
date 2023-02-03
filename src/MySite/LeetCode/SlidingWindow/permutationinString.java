@@ -1,5 +1,5 @@
 package MySite.LeetCode.SlidingWindow;
-
+// https://leetcode.com/problems/permutation-in-string/description/
 public class permutationinString {
     public static void main(String[] args) {
 
