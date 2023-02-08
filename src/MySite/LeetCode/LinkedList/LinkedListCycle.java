@@ -1,4 +1,7 @@
 package MySite.LeetCode.LinkedList;
+
+import site.systemDesign.lruCache.ListNode;
+
 // https://leetcode.com/problems/linked-list-cycle/
 public class LinkedListCycle {
     public static void main(String[] args) {

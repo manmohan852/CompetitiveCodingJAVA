@@ -1,4 +1,7 @@
 package MySite.LeetCode.LinkedList;
+
+import site.systemDesign.lruCache.ListNode;
+
 //  https://leetcode.com/problems/remove-linked-list-elements/
 public class RemoveLinkedListElements {
     public static void main(String[] args) {

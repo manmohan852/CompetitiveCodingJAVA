@@ -1,18 +1,16 @@
 package MySite.LeetCode.LinkedList;
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-  }
-public class reverseBetween {
 
+import site.systemDesign.lruCache.ListNode;
+
+public class reverseBetween {
+      public static void main(String[] args) {
+
+      }
       public ListNode reverseBetween1(ListNode head, int m, int n) {
             if(m == n || head == null) return head;
 
-            ListNode front = new ListNode(-1);
+            ListNode front = new ListNode();
             front.next = head;
             ListNode oneBefore = front;
 

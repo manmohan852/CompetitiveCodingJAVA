@@ -1,4 +1,7 @@
 package MySite.LeetCode.LinkedList;
+
+import site.systemDesign.lruCache.ListNode;
+
 //  https://leetcode.com/problems/middle-of-the-linked-list/
 public class MiddleoftheLinkedList {
     public static void main(String[] args) {

@@ -1,4 +1,7 @@
 package MySite.LeetCode.LinkedList;
+
+import site.systemDesign.lruCache.ListNode;
+
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 public class RemoveNthNodeFromEndofList {
     public static void main(String[] args) {
