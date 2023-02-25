@@ -3,6 +3,7 @@ import java.util.*;
 
 // A BFS based solution to count number of
 // islands in a graph.
+// https://leetcode.com/problems/number-of-islands/
 public class noOfIslands
 {
 

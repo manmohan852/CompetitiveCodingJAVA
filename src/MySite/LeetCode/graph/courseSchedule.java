@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
+// https://leetcode.com/problems/course-schedule/
 public class courseSchedule {
     public static void main(String[] args) {
         int numCourses = 2;
