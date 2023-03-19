@@ -11,7 +11,7 @@ public class FindKClosestElements {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         int n = arr.length;
         int l = 0, r = n - k;
-        // here r = n - k because we are working on the window till n - k
+        // here r = n - k because we are working on the window(mid........mid+k) till n - k
         while(l < r){
             int mid = l + (r - l)/2;
             if( (x - arr[mid]) > (arr[mid + k] - x)){
