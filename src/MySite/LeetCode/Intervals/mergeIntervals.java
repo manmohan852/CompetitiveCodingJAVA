@@ -3,7 +3,7 @@ package MySite.LeetCode.Intervals;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+// https://leetcode.com/problems/merge-intervals/
 public class mergeIntervals {
     public static void main(String[] args) {
         int[][] intervals = {{1,3}, {2,6}, {8,10}, {15,18}};
