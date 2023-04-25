@@ -10,6 +10,7 @@ public class JumpGameII {
         for(int i = 0; i < nums.length; i++){
             farthest = Math.max(farthest, i + nums[i]);
             if(current == n - 1) break;
+            //when i == n - 1 and current is also n - 1 then an extra jump is added.
             if(i == current){
                 current = farthest;
                 jumps++;
