@@ -1,7 +1,7 @@
 package site.systemDesign.lruCache;
 
 public class ListNode<T> {
-    public final T value;
+    public T value;
     public ListNode<T> prev;
     public ListNode<T> next;
     public int val;
